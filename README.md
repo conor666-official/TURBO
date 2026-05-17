@@ -1,52 +1,19 @@
-# 🔥 TURBO - Professional IP Changer
+<div align="center">
 
-**Advanced IP rotation tool for Termux using multi-instance Tor technology**
+# 🔥 TURBO - PROFESSIONAL IP CHANGER
 
-[![Version](https://img.shields.io/badge/version-3.0-red.svg)](https://github.com/conor666-official/TURBO)
-[![Termux](https://img.shields.io/badge/Termux-Compatible-brightgreen.svg)](https://termux.com)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+### *Enterprise-Grade Multi-Instance Tor IP Rotator for Termux*
 
----
-
-## 📋 Table of Contents
-
-- [Features](#features)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Proxy Setup](#proxy-setup)
-- [Commands](#commands)
-- [Troubleshooting](#troubleshooting)
-- [License](#license)
+[![Version](https://img.shields.io/badge/version-3.0-red.svg?style=for-the-badge&logo=github)](https://github.com/conor666-official/TURBO)
+[![Termux](https://img.shields.io/badge/Termux-Optimized-00BFFF.svg?style=for-the-badge&logo=android)](https://termux.com)
+[![Platform](https://img.shields.io/badge/Platform-Android-3DDC84.svg?style=for-the-badge&logo=android)](https://android.com)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
+[![Bash](https://img.shields.io/badge/Shell-Bash-4EAA25.svg?style=for-the-badge&logo=gnu-bash)](https://www.gnu.org/software/bash/)
+[![Open Source](https://img.shields.io/badge/Open%20Source-❤️-green.svg?style=for-the-badge)](https://opensource.org/)
 
 ---
 
-## ✨ Features
-
-| Feature | Description |
-|---------|-------------|
-| **5x Tor Instances** | Multi-instance Tor for reliable rotation |
-| **Real-time Display** | Live IP, location, and countdown timer |
-| **Configurable Interval** | 3-60 seconds rotation speed |
-| **Auto Logging** | All rotations saved to `~/turbo/turbo.log` |
-| **Clean Shutdown** | Automatic cleanup of all processes |
-
----
-
-## 📱 Requirements
-
-| Requirement | Spec |
-|-------------|------|
-| Android | 7.0+ |
-| RAM | 1GB+ |
-| Storage | 50MB |
-| App | Termux (F-Droid) |
-
----
-
-## ⚡ Installation
-
-### One-Line Install
+## ⚡ **ONE COMMAND INSTALLATION**
 
 ```bash
-pkg update -y && pkg install tor privoxy netcat-openbsd curl jq -y && curl -o $PREFIX/bin/turbo https://raw.githubusercontent.com/conor666-official/TURBO/main/turbo.sh && chmod +x $PREFIX/bin/turbo && mkdir -p ~/turbo && echo -e "\033[32m✅ TURBO Installed! Run: turbo -s 5\033[0m"
+pkg update -y && pkg install tor privoxy netcat-openbsd curl jq -y && curl -s https://raw.githubusercontent.com/conor666-official/TURBO/main/install.sh | bash
