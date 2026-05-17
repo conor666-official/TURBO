@@ -1,4 +1,4 @@
-# ⚡ IP-CHANGER (Termux) — XTREME K1 💀
+# ⚡ TURBO IP-CHANGER (Termux) — XTREME K1 💀
 
 > Termux-friendly IP rotation tool using Tor + Privoxy.
 
